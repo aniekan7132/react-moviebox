@@ -1,0 +1,109 @@
+.featuredSection {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seeMoreContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.image {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.featuredMovie {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.seeMore {
+  color: #be123c;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+
+.country {
+  color: #9ca3af;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0.7rem;
+}
+
+.rating {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.title {
+  width: 250px;
+  color: #111827;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1rem;
+}
+
+.figure {
+  color: #111827;
+  font-family: DM Sans;
+  font-family: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.description {
+  color: #9ca3af;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1rem;
+}
+
+.movieList {
+  display: inline-flex;
+  gap: 80px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.card {width: 257px;}
+
+.leftArrow {
+  position: absolute;
+  top: 10rem;
+  left: -4rem;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 10rem;
+  right: -4rem;
+  cursor: pointer;
+}

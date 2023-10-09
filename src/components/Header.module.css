@@ -1,0 +1,127 @@
+.header {
+  height: 100vh;
+  background-image: url("./src/assets/poster-large.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headerNavigation {
+  width: 100%;
+  display: inline-flex;
+  gap: 14rem;
+  padding: 1rem 7rem;
+}
+
+.headerSignIn {
+  display: inline-flex;
+  gap: 27px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menuImage {
+  background-color: #be123c;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  padding: 0.4rem;
+}
+
+input {
+  display: flex;
+  width: 525px;
+  padding: 6px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  border: 2px solid #d1d5db;
+  background-color: transparent;
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  lone-height: 24px;
+}
+
+.sign-in {
+  display: inline-flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.signin {
+  color: #fff;
+}
+
+.headerText {
+  font-size: 48px;
+  font-family: DM Sans;
+  font-style: normal;
+  color: #fff;
+  padding: 1rem 7rem;
+  margin-top: 2rem;
+  line-height: 56px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.headerDescription {
+  display: flex;
+  gap: 16px;
+  padding: 1rem 7rem;
+  align-items: center;
+}
+
+.headerDescription .imageYellow {
+  width: 35px;
+  height: 17px;
+}
+
+.headerDescription .imageRed {
+  width: 16px;
+  height: 17px;
+  margin-left: 2rem;
+}
+
+.headerDescription p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: DM Sans;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  line-height: 12px;
+}
+
+.headerDetails {
+  width: 420px;
+  color: #fff;
+  padding-left: 7rem;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.headerButton {
+  display: inline-flex;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background-color: #be123c;
+  margin: 1rem 0 0 7rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.headerButton img {
+  background-color: #fff;;
+}
